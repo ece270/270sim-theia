@@ -1,0 +1,72 @@
+#widget-container h2 {
+    color: var(--theia-ui-font-color1);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#SsDec {
+    width: 12.5%
+}
+
+#LedArr {
+    display: flex;
+}
+
+#Led {
+    border-radius: 50%;
+    flex: 1;
+    margin: 3px;
+}
+
+#Led:before {
+    content: "";
+    display: inline-block;
+    padding-top: 100%;
+}
+
+#PushButton {
+    text-align: center;
+    background-color: #17183f;
+    font-size: 1.5em;
+    box-shadow: 5px 5px black;
+}
+
+#PushButton:before {
+    padding-top: 100%;
+}
+
+#PushButton:hover {
+    background-color: #28296d;
+    cursor: pointer;
+}
+
+#PushButton:active {
+    background-color: #10112e;
+    box-shadow: none;
+}
+
+#PushButtonGrid {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.ledarrays {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ledarrays div {
+    flex: 1 100px;
+}
+
+.ledarrays .bigLed {
+    max-width: 50px;
+}
+
+.pbGrid {
+    width: 80%;
+    margin: auto;
+}
