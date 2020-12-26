@@ -1,5 +1,5 @@
 # sim-ext
-The example of how to build the Theia-based applications with the sim-ext.
+ECE270 FPGA simulator frontend extension for vscode based theia-ide.
 
 ## Getting started
 
@@ -15,6 +15,25 @@ Install npm and node.
 Install yarn.
 
     npm install -g yarn
+
+Install [verilog vscode plugin](https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL)
+ - download plugin
+ - unpack with zip
+ - place extension directory in `~/.theia/plugins/`
+ - add following to `settings.json` in `~/.theia`
+    ```
+    {
+    "verilog.linting.linter": "verilator",
+    "verilog.languageServer": "svls"
+    }
+    ```
+
+
+Install [svls](https://github.com/dalance/svls)
+ - put binary somewhere in PATH
+
+Install Verilator
+ - `apt install verilator`
 
 ## Running the browser example
 
