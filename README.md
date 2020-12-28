@@ -1,6 +1,8 @@
 # sim-ext
 ECE270 FPGA simulator frontend extension for vscode based theia-ide.
 
+This is a test/rework of @norandomtechie's work [here](https://github.com/norandomtechie/ece270-simulator). Check it out for an extended README with more info about the project and also [this documentation](https://nirajmmenon.com/assets/Simulator_Documentation.pdf) he wrote. 
+
 ## Getting started
 
 Install [nvm](https://github.com/creationix/nvm#install-script).
